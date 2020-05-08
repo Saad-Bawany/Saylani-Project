@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .header {
+        color: #6651cf;
+        background-color: white;
+        text-decoration: underline;
+        font-family: "Gill Sans", sans-serif;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .container {
+        display: inline-block;
+
+        font-family: "Gill Sans", sans-serif;
+        font-size: 14px;
+        padding: 0px 10px;
+
+    }
+
+    table {
+        background-color: #6651cf;
+        color: white;
+    }
+
+    .field {
+        height: 20px;
+    }
+
+    .footer {
+        height: 50px;
+        background-color: #6651cf;
+        font-family: "Gill Sans", sans-serif;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer input {
+        border-radius: 5px;
+        height: 25px;
+        width: 60px;
+        margin: 0px 4px;
+    }
+</style>
+
+<body>
+
+
+
+    <div class="container">
+        <div class="header">
+            <img src="https://www.saylaniwelfare.com/public_html/images/saylani/Saylani-logo.png" alt="Saylani-logo" height="80px">
+            <h2> STUDENT REGISTRATION FORM </h2>
+
+        </div>
+        <table cellspacing="12" class="table">
+
+            <tr>
+                <td> <label> FIRST NAME </label> </td>
+                <td> <input class="field" type="text" placeholder="Enter first name"> (max 30 charecters a-z and A-Z)
+                </td>
+            </tr>
+
+            <tr>
+                <td> <label> LAST NAME </label> </td>
+                <td> <input class="field" type="text" placeholder="Enter last name"> (max 30 charecters a-z and A-Z)
+                </td>
+
+            </tr>
+
+            <tr>
+                <td> <label>DATE OF BIRTH </label> </td>
+                <td> <input class="field" type="date"> </td>
+
+            </tr>
+
+            <tr>
+                <td> <label> EMAIL ID </label> </td>
+                <td> <input class="field" type="email" placeholder="Enter email address"> </td>
+
+            </tr>
+
+            <tr>
+                <td> <label> MOBILE NUMBER </label> </td>
+                <td> <input class="field" type="number" placeholder="Enter mobile number"> (10 digit number) </td>
+            </tr>
+
+            <tr>
+                <td> <label> ADDRESS </label> </td>
+                <td> <textarea name="comments" cols="38" rows="6"> </textarea> </td>
+
+            </tr>
+
+            <tr>
+                <td> <label> CITY </label> </td>
+                <td> <input class="field" type="text" placeholder="Enter city name"> (max 30 charecters a-z and A-Z)
+                </td>
+            </tr>
+
+            <tr>
+                <td> <label> PIN CODE </label> </td>
+                <td> <input class="field" type="text" placeholder="Enter pincode"> (6 digit number) </td>
+            </tr>
+
+            <tr>
+                <td> <label> STATE </label> </td>
+                <td> <input class="field" type="text" placeholder="Enter state"> (max 30 charecters a-z and A-Z) </td>
+            </tr>
+
+            <tr>
+                <td> <label> COUNTRY </label> </td>
+                <td> <input class="field" type="text" placeholder="Enter country"> </td>
+            </tr>
+
+            <tr>
+                <td><label>HOBBIES</label></td>
+                <td> <input type="checkbox" name="hobby" value="drawing"> Drawing
+                    <input type="checkbox" name="hobby" value="singing"> Singing
+                    <input type="checkbox" name="hobby" value="dancing"> Dancing
+                    <input type="checkbox" name="hobby" value="sketching"> Sketching <br>
+                    Others : <input type="text"> </td>
+
+            </tr>
+
+            <tr>
+                <td> <label>QUALIFICATION</label> </td>
+                <td>
+                    <table>
+
+                        <tr>
+                            <th>SI.NO Examination </th>
+                            <th>Board</th>
+                            <th>Percentage</th>
+                            <th>Year of Passing</th>
+
+                        </tr>
+
+                        <tr>
+                            <td>Class X</td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+
+                        <tr>
+                            <td>Class XII</td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+
+                        <tr>
+                            <td>Graduation</td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+
+                        <tr>
+                            <td>Masters</td>
+                            <td><input type="text"> <br> (10 char max) </td>
+                            <td><input type="text"> <br> (upto 2 decimal) </td>
+                            <td><input type="text"> <br> <i id="blank">(10 char max)</i> </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <tr>
+                <td>COURSES <br> APPLIED FOR </td>
+                <td> <input type="checkbox" name="courses" value="BCA"> BCA
+                    <input type="checkbox" name="courses" value="B.Com"> B.com
+                    <input type="checkbox" name="courses" value="B.Sc"> B.Sc
+                    <input type="checkbox" name="courses" value="B.A"> B.A </td>
+            </tr>
+
+        </table>
+
+        <div class="footer">
+
+            <a href="Submited.html"> <input type="submit" value="Submit"></a>
+            <a href="Submited.html"> <input type="reset" value="Reset"></a>
+
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
